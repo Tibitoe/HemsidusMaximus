@@ -1,0 +1,88 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+body {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #292424;
+    margin: 5px;
+    padding: 5px;
+    max-width: 100%;
+    min-height: 100vh;
+}
+    header {
+        border-radius: 25px;
+        text-align: center;
+        background-color: rgb(13, 13, 27);
+        border: 5px solid black;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        font-weight: bolder;
+        font-size: 3rem;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    .navigation-bar {
+        column-count: 3;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 25px;
+        background-color: #474343;
+        max-width: 100%;
+    }
+    .home-button {
+        max-width: 50%;
+        padding: 3px;
+        margin: 0;
+        background-color: black;
+        border: solid 1px #ffffff;
+        border-radius: 5px;
+    }
+    .about-button {
+        max-width: 50%;
+        padding: 3px;
+        margin: 0;
+        background-color: black;
+        border: solid 1px #ffffff;
+        border-radius: 5px;
+    }
+    .contact-button {
+        max-width: 50%;
+        padding: 3px;
+        margin: 0;
+        background-color: black;
+        border: solid 1px #ffffff;
+        border-radius: 5px;
+    }
+    .main-content {
+        max-width: 100%;
+        column-count: 3;
+        column-rule: solid #000000;
+        padding: 2px;
+        margin: 0;
+        text-shadow: 2px 2px  4px #000000;
+        column-count: 3;
+    }
+    .column {
+        column-width: auto;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: #000000;
+    }
+    .bottom-footer {
+        background-color: #000000;
+        margin-top: auto;
+    }
+@media (max-width:480px) {
+    .main-content {
+        column-count: 1;
+    }
+}
